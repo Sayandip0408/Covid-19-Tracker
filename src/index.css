@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+
+.container{
+    margin-bottom: 50px;
+}
+
+.hei{
+    height: 75px;
+}
+
+.main-heading h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Dancing Script', cursive;
+    /* font-weight: 100; */
+}
+
+.font-weight-bold{
+    font-weight: bolder;
+}
+
+.tbl{
+    box-shadow: 0 5px 30px 5px rgb(203, 203, 203);
+    border-radius: 5px;
+}
+.cursor{
+    cursor: pointer;
+}
+tbody tr th{
+    font-family: 'Source Serif Pro', serif;
+    border-radius: 5px;
+}
+tbody tr td{
+    border-radius: 5px;
+    font-family: 'Source Serif Pro', serif;
+    /* border: 1px solid grey; */
+}
+.value:hover{
+    background-color: #f9ca24;
+}
+.death-hover:hover{
+    background-color: #e74c3c;
+}
+.recover-hover:hover{
+    background-color: #27ae60;
+}
